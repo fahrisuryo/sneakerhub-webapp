@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
           <p>&copy; {new Date().getFullYear()} SneakerHub. All rights reserved.</p>
-          <p>Designed with <span className="text-red-500">&hearts;</span> by Dyad</p>
+          <p>Created by Fahri Suryo</p>
         </div>
       </div>
     </footer>
