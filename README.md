@@ -1,6 +1,6 @@
-# Simple Static Portfolio Website
+# SneakerHub Website
 
-Welcome to my portfolio website! This site showcases my work as a Front End Web Developer, including projects I've completed and a bit about myself.
+This website is created with tech stacks I just learned, with slightly improvement from AI. This web contains page functionality and product display.
 
 ## Table of Contents
 
