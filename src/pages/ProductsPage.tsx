@@ -39,14 +39,14 @@ const products = [
     id: 5,
     name: 'Trail Runner GTX',
     price: '$150',
-    image: 'https://images.unsplash.com/photo-1605348532760-6753d2c43cb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNuZWFrZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1520655792209-b751050ac16a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaWwlMjBydW5uaW5nJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60', // Updated image
     description: 'Durable and waterproof for any terrain.'
   },
   {
     id: 6,
     name: 'Skate Pro Low',
     price: '$85',
-    image: 'https://images.unsplash.com/photo-1579338559194-a162d19bfbce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNuZWFrZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
+    image: 'https://images.unsplash.com/photo-1566958769307-900900567650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2thdGUlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', // Updated image
     description: 'Built for performance and style on the board.'
   },
 ];
