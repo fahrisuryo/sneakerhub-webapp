@@ -22,10 +22,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold text-white mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-indigo-400"><Facebook size={24} /></a>
-              <a href="#" className="hover:text-indigo-400"><Twitter size={24} /></a>
-              <a href="#" className="hover:text-indigo-400"><Instagram size={24} /></a>
-              <a href="#" className="hover:text-indigo-400"><Linkedin size={24} /></a>
+              <a href="#" className="hover:text-indigo-400" aria-label="Facebook"><Facebook size={24} /></a>
+              <a href="#" className="hover:text-indigo-400" aria-label="Twitter"><Twitter size={24} /></a>
+              <a href="#" className="hover:text-indigo-400" aria-label="Instagram"><Instagram size={24} /></a>
+              <a href="#" className="hover:text-indigo-400" aria-label="LinkedIn"><Linkedin size={24} /></a>
             </div>
           </div>
         </div>
