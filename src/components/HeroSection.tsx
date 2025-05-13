@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
+import { Link } from 'react-router-dom';
 
 const HeroSection: React.FC = () => {
   const [textRef, isTextVisible] = useScrollAnimation<HTMLDivElement>({ threshold: 0.2 });
@@ -24,9 +25,11 @@ const HeroSection: React.FC = () => {
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               Discover the latest collection of premium sneakers. Unmatched style, comfort, and performance.
             </p>
-            <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg text-lg">
-              Buy Now
-            </Button>
+            <Link to="/products">
+              <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg text-lg">
+                Buy Now
+              </Button>
+            </Link>
           </div>
           <div
             ref={imageRef}
