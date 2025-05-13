@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-// Using the same product data as ProductShowcase for consistency
 const products = [
   {
     id: 1,
@@ -39,14 +38,16 @@ const products = [
     id: 5,
     name: 'Trail Runner GTX',
     price: '$150',
-    image: 'https://images.unsplash.com/photo-1520655792209-b751050ac16a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaWwlMjBydW5uaW5nJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60', // Updated image
+    // New image for Trail Runner GTX
+    image: 'https://images.unsplash.com/photo-1587663690012-a393000a109f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRyYWlsJTIwcnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
     description: 'Durable and waterproof for any terrain.'
   },
   {
     id: 6,
     name: 'Skate Pro Low',
     price: '$85',
-    image: 'https://images.unsplash.com/photo-1566958769307-900900567650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2thdGUlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', // Updated image
+    // New image for Skate Pro Low
+    image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2thdGUlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     description: 'Built for performance and style on the board.'
   },
 ];
